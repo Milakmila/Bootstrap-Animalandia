@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="img/iconVet.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
     <title>Dashboard</title>
@@ -20,15 +20,15 @@
 
 </head>
 <body>
-    <header>
-      <section id="arriba">
+  <header>
+    <section id="arriba">
         <div class="container-fluid">
             <div class="header-logo col-12 col-md-4 col-xl-3">
                 <img src="../assets/images/logo.jpg" class="img-fluid">
             </div>
          
             <form class="d-flex">
-              <div class="card mb-3" style="max-width: 400px;">
+              <div class=" usuariocard mb-3" style="max-width: 400px;">
                 <div class="row g-0">
                   <div class=" golden col-md-4 col-4">
                     <img src="../assets/images/golden.jpg" class="golden img-fluid rounded-float-end" style="  border-radius: 50%; border: 4px solid rgb(117, 41, 149); " alt="...">
@@ -38,51 +38,35 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title"><strong>Bienvenido, </strong></h5>
-                      <p class="card-text"><a href="../views/login.html">
+                      <p class="card-text"><a href="../index.html">
                         <i class="fa-solid fa-right-from-bracket"></i>
                       </a></p>
               
                     </div>
                   </div>
+                  <div class=" menu navbar-nav">
+                    <div class="row">
+                      <div class="">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-user"></i>Usuario</a>
+    
+              
+                    <a class="nav-link" href="#"><i class="fa-solid fa-users"></i>Clientes</a>
+                
+                    <a class="nav-link" href="../views/producto.html"><i class="fa-solid fa-tag"></i>Productos</a>
+
+                    <a class="nav-link" href="../views/Pedido/pedido.html" ><i class="fa-solid fa-cart-shopping"></i>Pedidos</a>
+
+                    <a class="nav-link" ><i class="fa-solid fa-chart-line-up"></i></i>Reportes</a>
+                  </div>
+                 
+                </div>
+              </div>
             
-      </section>
+    </header>  
        
 
-    </header>
-
     <section id="dashboard">
-        <article class="menu">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  style="background-color: black";>
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    
-                    <div class=" menu navbar-nav">
-                      <div class="row">
-                        <div class="">
-                      <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-user"></i>Usuario</a>
-      
-                
-                      <a class="nav-link" href="#"><i class="fa-solid fa-users"></i>Clientes</a>
-                  
-                      <a class="nav-link" href="../views/Producto/producto.html"><i class="fa-solid fa-tag"></i>Productos</a>
-
-                      <a class="nav-link" href="../views/Pedido/pedido.html" ><i class="fa-solid fa-cart-shopping"></i>Pedidos</a>
-
-                      <a class="nav-link" ><i class="fa-solid fa-chart-line-up"></i></i>Reportes</a>
-                    </div>
-                    </div>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-           
-
-
-        </article>
+       
         <article class="contenido">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque sapiente quam aliquam ex culpa quia placeat ipsa consectetur cumque excepturi reiciendis accusantium, illum molestiae explicabo, veniam odit ipsam necessitatibus minima.
@@ -92,6 +76,6 @@
             </p>
         </article>
     </section>
-    
+  </section>   
 </body>
 </html>

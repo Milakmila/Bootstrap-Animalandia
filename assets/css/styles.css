@@ -256,11 +256,23 @@ footer{
     margin: 10px;
 }
   /* Dashboard*/
+  #dashboard{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+   
+}
   .golden img{
       border-radius: 50%;
      
   }
-
+  .contenido{
+    grid-column: 3;
+    grid-row: 1;
+    flex-basis: 20%;
+    background-color: var(--ligh-color);
+    padding: 30px;
+}
   
 .menu{
     flex-basis: 20%;

@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark-color: #191919;
+    --white-color:#ffffff;
+    --purple-color: rgb(117, 41, 149);
+    --purplelight-color: rgb(169, 83, 206);
+    --blue-color:#00B2B1;
+    --gray-color: gray;
+    --light-color:#F3F3F3;
+
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+header .row{
+    padding: 1rem 1.5rem;
+}
+
+.title-seccion{
+    margin-top: 2rem;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header-buttons i{
+    margin-right: 5px;
+}
+
+.header-buttons a{
+    color: black;
+}
+
+.agenda-cita i{
+    margin-right: 5px;
+}
+
+.btn-primary{
+    color: black;
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: rgb(155, 218, 218);
+    border-color:rgb(155, 218, 218);
+}
+
+.btn-outline-primary{
+    color:rgb(117, 41, 149);
+    border-color: rgb(117, 41, 149);
+}
+
+.btn-outline-primary:hover{
+    color:white;
+    background-color: rgb(117, 41, 149);
+    border-color: rgb(117, 41, 149);
+}
+
+.header-logo img{
+    max-width: 270px;
+}
+
+
+.agenda-cita{
+    background-image: url(../img/fondo.jpg);
+    padding: 3rem;
+}
+
+.agenda-cita h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.agenda-cita h3{
+    font-size: 1.2rem;
+}
+
+.agenda-promo{
+    background-color: rgb(117, 41, 149);
+    padding: 3rem;
+}
+
+
+.agenda-promo h1{
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.title-seccion{
+    color: rgb(117, 41, 149);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.698);
+    
+}
+
+.card{
+    text-align: center;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card img{
+    max-width: 200px;
+}
+
+.card-body h5{
+    font-weight: bolder;
+}
+
+footer{
+    background-image: url(../img/fondo.jpg);
+    
+    
+}
+
+.capa{
+    background-color: rgba(117, 41, 149, 0.561);
+    color: white;
+    padding: 2rem 0;
+}
+
+.capa p{
+    line-height: 1.2rem;
+}
+
+.capa i{
+    font-size: 50px;
+    color: white;
+}
+
+.text{
+    color: white;
+}
+
+
+.columna-body h5{
+    text-align: center;
+}
+
+.columna i{
+    align-self: center;
+}
+
+.columna-body p{
+    line-height: 5px;
+}
+  /*-----SERVICES-----*/
+  .carousel-indicators{
+    color: #000;
+  }
+
+  /* Equipo*/
+
+  .card-img-top{
+      margin-bottom: 10px;
+      border-radius: 50%;
+     
+  }
+  .h2-card{
+      color: var(--purple-color);
+      font-weight: 600;
+      font-size: 28px;
+  }
+
+  /* Sevicios*/
+  .carousel-control-prev-icon{
+      background-color: #00B2B1;
+  }
+  .carousel-control-next-icon{
+    background-color: #00B2B1;
+  }
+  #banner{
+    width: 100%;
+}
+  .imagenservicio {
+      display: grid;
+      max-width: 300%;
+     place-items: center;
+     align-self: center;
+
+  }
+    /*tips*/
+    #tips{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      align-self: center;
+      justify-content: center;
+    }
+    .izquierda{
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+
+  /* contacto*/
+
+  #contacto{
+      display: grid;
+      grid-template-rows: 50% 50%;
+      grid-template-columns: 50% 50%;
+      background-color: rgba(117, 41, 149, 0.561);
+        margin: 10px 20px;
+    }
+    .form-label{
+        display: flex;
+      
+    }
+    .forms{
+        display: flex;
+        align-items: flex-end;
+        justify-items: flex-end;
+    }
+
+  .mapa{
+      grid-column: span 2;
+      grid-row: 2;
+  }
+/* Login*/
+.arriba{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#login{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 100px;
+    padding: 5rem;
+}
+.form-login i{
+    text-align: center;
+    color: var(--purple-color);
+    background-color: var(--white-color);
+    padding: 10px 12.8px;
+    border-radius: 100%;
+    border: 4px solid var(--gray-color);
+    margin: 10px;
+}
+  /* Dashboard*/
+  .golden img{
+      border-radius: 50%;
+     
+  }
+
+  
+.menu{
+    flex-basis: 20%;
+    background-color: var(--dark-color);
+    height: 100vh;
+    color: white;
+}
+
+.menu ul{
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.menu li{
+    color: white;
+    
+}
+
+.menu a{
+    color: var(--ligh-color);
+    text-decoration: none;
+    padding:1rem;
+    display: block;
+    text-align: left;
+    
+}
+
+.menu a:hover{
+    background-color: var(--purple-color);
+    color:var(--dark-color);
+    border:3px solid var(--white-color);
+    padding-left: 40px;
+    transition: all 2s;
+    width:200px ;
+}
+
+  .usuario{
+      border: none;
+  }
+#dashboard{
+    display: grid;
+    grid-template-columns: 20px 100px;
+}
+
+.menu-dashboard a:hover{
+    background-color: var(--purple-color);
+    color:var(--dark-color);
+    border:3px solid var(--white-color);
+    padding-left: 40px;
+    transition: all 2s;
+    width:200px ;
+}
+
+/*Productos*/
+
+.table-intro{
+    display: grid;
+    grid-template-columns: 20% 60% 10%;
+}
+.img-fluid{
+    display: flex;
+    align-items: flex-end;
+}
+.srh-dashboard{
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+
+/* Producto ADD*/
+label{
+    font-weight: bold;
+}
+
+input{
+    border: 3px solid grey;
+    width: 800px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+select{
+    padding: 0.5rem;
+    width: 800px;
+}

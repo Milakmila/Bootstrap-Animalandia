@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="img/iconVet.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Animalandia</title>
+
+    <!--Iconos, Letra Google Fonts, Normalize-->
+    <script src="https://kit.fontawesome.com/d5d81529d3.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+	<div class="container-fluid">
+
+    <header>
+		<div class="row aligin-items-center">
+			<div class="header-logo col-12 col-md-4 col-xl-3">
+				<img src="../assets/images/logo.jpg" alt="logo animalandia">
+			</div>
+			<div class="col-12 col-md-4"></div>
+			<div class="header-buttons col-12 col-md-4 col-xl-3">
+				<a href="../views/login.html">
+                    <button  type="submit" class="btn btn-primary"><i class="bi bi-person-circle"></i>Ingresar</button>
+                    </a>
+				<button type="button" class="btn btn-outline-primary"><i class="bi bi-person-plus-fill"></i>Registrarse</button>
+		</div>
+			</div>
+    </header>
+
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(117, 41, 149);">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"></a>
+            <button class="navbar-toggler"type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Togglenavigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../views/equipo.html" class="nav-link">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../views/servicios.html" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../views/tips.html" class="nav-link">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../views/contacto.html" class="nav-link active">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Digite su criterio" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+        </div>
+  </nav>
+    
+
+<main>
+    <section id="contacto">
+        <div class="row">
+        
+            <div class="contacto-grid col-12 col-md-6 col-xl-8">
+        
+                <h2 class="title-seccion text-center mb-5">Nuestro Equipo</h2>
+            <article class="forms">
+                <div class="group"><div class="group"
+                    <p>Deja tus datos para contactarte lo mas pronto posible</p>
+
+                    <label for="exampleInputEmail1" class="form-label">Nombre: </label>
+                    <input class="form-control form-control-sm" type="text" placeholder="Nombre" aria-label=".form-control-sm example">
+
+                    <label for="exampleInputEmail1" class="form-label">Apellido: </label>
+                    <input class="form-control form-control-sm" type="text" placeholder="Apellido" aria-label=".form-control-sm example">
+
+                    <label for="exampleInputEmail1" class="form-label">Correo: </label>
+                    <input class="form-control form-control-sm" type="text" placeholder="Correo" aria-label=".form-control-sm example">
+
+                    <label for="exampleInputEmail1" class="form-label">Celular: </label>
+                    <input class="form-control form-control-sm" type="text" placeholder="320895462" aria-label=".form-control-sm example">
+
+                    <label for="exampleInputEmail1" class="form-label">Cuentanos en máximo 500 caracteres ¿Cúal es tu inquietud? </label>
+                    <textarea rows="10" cols="50" name="comentarios"></textarea>
+                </div>
+            </article>
+   
+            <article class="mapa">
+                <h2 class="title-seccion text-center mb-5">Nuestro sede principal</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15908.227640828107!2d-74.103688!3d4.583806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb94d4852598b934!2sKuepa%20-%20Restrepo!5e0!3m2!1ses-419!2sco!4v1646398325032!5m2!1ses-419!2sco" width="500" height="450" style="border:10px blur gray;" allowfullscreen="" loading="lazy"></iframe>
+            </article>
+
+    </section>
+
+        <article class="info-contacto">
+            <h1 class="tseccion">¿Cómo encontrarnos?</h1>
+            <p><strong>Dirección:</strong> Calle 22 #18-15</p>
+            <p><strong>Telefono:</strong> 601 222 2222</p>
+            <p><strong>Email:</strong> animalandia@gmail.coms</p>
+    
+</main>
+
+</body>
+    <footer>
+        <div class="box-footer">
+            <div class="morado">
+            <div class="foot">
+                <i class="fa-regular fa-building fa-3x"></i>
+                <h3>Sedes</h3>
+                <p>Sede Kennedy<br>
+                    Sede Suba<br>
+                    Sede Fontibon<br
+                    >Sede Centro<br></p>
+            </div>
+        
+            <div class="foot">
+                <i class="fa-regular fa-building fa-3x"></i>
+                <h3>Sedes</h3>
+                <p>Sede Kennedy<br>Sede Suba<br>Sede Fontibon<br>Sede Centro<br></p>
+            </div>
+    
+            <div class="foot">
+                <i class="fa-regular fa-building fa-3x"></i>
+                <h3>Sedes</h3>
+                <p>Sede Kennedy<br>Sede Suba<br>Sede Fontibon<br>Sede Centro<br></p>
+            </div>
+        </div>
+        </div>
+  </footer>
+
+    </body>
+    </html>

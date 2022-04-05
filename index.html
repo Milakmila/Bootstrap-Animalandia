@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animalandia</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/estilos.css">-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+<div class="container-fluid overflow-hidden">
+    <header>
+        <div class="row align-items-center">
+            <div class="header-logo col-12 col-md-4 col-xl-3">
+                <img src="assets/images/logo.jpg" class="img-fluid">
+            </div>
+
+            <div class="col-12 col-md-4 col-xl-6"></div>
+            <div class="header-buttons col-12 col-md-4 col-xl-3 d-flex flex-row">
+                <form action="views/login.html" >
+                    <a href="/views/login.html">
+                        <button  type="submit" class="btn btn-primary"><i class="bi bi-person-circle"></i>Ingresar</button>
+                        </a>
+                </form>
+                <button type="button" class="btn btn-outline-primary"><i class="bi bi-people"></i>Registrarse</button>
+            </div>
+        </div>
+    </header>    
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(117, 41, 149);">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"></a>
+                <button class="navbar-toggler"type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Togglenavigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="views/equipo.html" class="nav-link">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="views/servicios.html" class="nav-link">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="views/tips.html" class="nav-link">Tips</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="views/contacto.html" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Digite su criterio" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </div>
+    </nav>
+    <section id="agenda" class="mt-1">
+        <div class="row">
+            <div class="agenda-cita col-12 col-md-6 col-xl-8">
+                <h1>AGENDA TU CITA AHORA PARA RECLAMAR TU PRIMER BAÑO GRATIS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ea laboriosam expedita repudiandae, fugit blanditiis doloremque, exercitationem amet laborum accusantium doloribus labore quaerat ut odio ullam, ab reiciendis voluptas. Excepturi!</p>
+                <h3>RECUERDA QUE NUESTRO EQUIPO MEDICO TE CONFIRMARA LA CITA</h3>
+                <button type="button" class="btn btn-outline-primary"><i class="bi bi-calendar-check"></i>Agenda</button>
+            </div>
+
+            <div class="agenda-promo col-12 col-md-6 col-xl-4 text-center">
+                <h1 class="mb-3">GRATIS TU PRIMER BAÑO</h1>
+                <img src="assets/images/golden.jpg" class="rounded-circle border border-white border-5">
+            </div>
+        </div>
+    </section>
+
+    <h2 class="title-seccion text-center mb-5">Servicios</h2>
+
+    <section id="servicios">
+        <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card text-center">
+            <img src="assets/images/paciente.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pacientes</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nam distinctio, beatae quos aspernatur quia delectus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <img src="assets/images/veterinario.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Veterinario</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nam distinctio, beatae quos aspernatur quia delectus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <img src="assets/images/vacunacion.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vacunacion</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nam distinctio, beatae quos aspernatur quia delectus.</p>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <footer class="container-fluid p-0">
+        <div class="capa">
+            <div class="pt-4 m-0 mifooter">
+                <div class="row justify-content-around">
+                    <div class="col-12 col-md-4 col-xl-4 text-center">
+                        <i class="bi bi-building"></i>
+                                <h5>Sedes</h5>
+                                <p>Sede Kennedy<br>
+                                    Sede Suba<br>
+                                    Sede Fontibon<br>
+                                    Sede Centro</p>  
+                    </div>
+                    
+                    <div class="col-12 col-md-4 col-xl-4 text-center">
+                        <i class="bi bi-building"></i>
+                                <h5>Sedes</h5>
+                                <p>Sede Kennedy<br>
+                                    Sede Suba<br>
+                                    Sede Fontibon<br>
+                                    Sede Centro</p>  
+                    </div>
+                    
+                    <div class="col-12 col-md-4 col-xl-4 text-center">
+                        <i class="bi bi-building"></i>
+                                <h5>Sedes</h5>
+                                <p>Sede Kennedy<br>
+                                    Sede Suba<br>
+                                    Sede Fontibon<br>
+                                    Sede Centro</p>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"></script>
+</body>
+
+</html>

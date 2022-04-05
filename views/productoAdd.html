@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="../images/iconVet.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <title>Dashboard</title>
+
+    <!--Iconos, Letra Google Fonts, Normalize-->
+    <script src="https://kit.fontawesome.com/d5d81529d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+    
+<body>
+  <section id="arriba">
+    <div class="container-fluid">
+        <div class="header-logo col-12 col-md-4 col-xl-3">
+            <img src="../assets/images/logo.jpg" class="img-fluid">
+        </div>
+     
+        <form class="d-flex">
+          <div class="card mb-3" style="max-width: 400px;">
+            <div class="row g-0">
+              <div class=" golden col-md-4 col-4">
+                <img src="../assets/images/golden.jpg" class="golden img-fluid rounded-float-end" style="  border-radius: 50%; border: 4px solid rgb(117, 41, 149); " alt="...">
+
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Bienvenido, </strong></h5>
+                  <p class="card-text"><a href="../views/login.html">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                  </a></p>
+          
+                </div>
+              </div>
+            </div>
+        
+  </section>
+
+   
+<section id="dashboard">
+    <article class="menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  style="background-color: black";>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                
+                <div class=" menu navbar-nav">
+                  <div class="row">
+                    <div class="">
+                  <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-user"></i>Usuario</a>
+  
+            
+                  <a class="nav-link" href="#"><i class="fa-solid fa-users"></i>Clientes</a>
+              
+                  <a class="nav-link" href="../views/Producto/producto.html"><i class="fa-solid fa-tag"></i>Productos</a>
+
+                  <a class="nav-link" href="../views/Pedido/pedido.html" ><i class="fa-solid fa-cart-shopping"></i>Pedidos</a>
+
+                  <a class="nav-link" ><i class="fa-solid fa-chart-line-up"></i></i>Reportes</a>
+                </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>   
+
+
+    <section id="dashboard">
+        <div class="content">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Descripcion</label><br>
+                <input type="text" class="form-control" id="exampleFormControlInput1"  >
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label><br>
+                <input type="text" class="form-control" id="exampleFormControlInput1"  >
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Precio</label><br>
+                <input type="text" class="form-control" id="exampleFormControlInput1"  >
+            </div>
+            
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Categoria</label><br>
+                <select class="form-select" aria-label="Default select example">
+                <option selected>-</option>
+                <option value="1">Juguetes</option>
+                <option value="2">Concentrado</option>
+                <option value="3">Medicamentos</option>
+                <option value="4">Accesorios</option>
+              </select>
+            </div>
+            <br>
+            <a href="../views/Producto/productoAdd.html">
+                <button type="button" class="btn btn-outline-primary"><i class="bi bi-people"></i>Agregar</button>
+                </a>
+            
+              
+        </div>
+     </section>
+    
+</body>
+
+</html>

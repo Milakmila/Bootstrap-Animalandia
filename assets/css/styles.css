@@ -206,13 +206,48 @@ footer{
         align-self: flex-end;
         justify-self: flex-end;
     }
+    .btn-1{
+        display: none;
+    }
+    .btn-2{
+        display: none;
+    }
+    .btn-3{
+        display: none;
+    }
+    .btn-4{
+        display: none;
+    }
+    .btn-1{
+        display: none;
+    }
+    .btn-5{
+        display: none;
+    }
+    .btn-6{
+        display: none;
+    }
+    .btn-7{
+        display: none;
+    }
+    .btn-8{
+        display: none;
+    }
 
   /* contacto*/
+    .contacto-grid{
+        display: grid;
+        grid-template-areas:
+       
+        "contacto"
+        "sede"
+        ;
 
+    }
   #contacto{
       display: grid;
-      grid-template-rows: 50% 50%;
-      grid-template-columns: 50% 50%;
+     
+     ;
       background-color: rgba(117, 41, 149, 0.561);
         margin: 10px 20px;
     }
@@ -221,15 +256,23 @@ footer{
       
     }
     .forms{
+        grid-area: contacto;
         display: flex;
         align-items: flex-end;
         justify-items: flex-end;
+        padding: 40px;
     }
 
   .mapa{
+      grid-area: sede;
       grid-column: span 2;
       grid-row: 2;
+      padding: 40px;
   }
+  .info-contacto{
+      text-align: center;
+  }
+
 /* Login*/
 .arriba{
     display: grid;
@@ -255,6 +298,7 @@ footer{
     border: 4px solid var(--gray-color);
     margin: 10px;
 }
+
   /* Dashboard*/
   #dashboard{
     display: grid;
@@ -278,6 +322,7 @@ footer{
     flex-basis: 20%;
     background-color: var(--dark-color);
     height: 100vh;
+    width: 900%;
     color: white;
 }
 
@@ -308,7 +353,7 @@ footer{
     border:3px solid var(--white-color);
     padding-left: 40px;
     transition: all 2s;
-    width:200px ;
+    width:190px ;
 }
 
   .usuario{
@@ -360,4 +405,50 @@ input{
 select{
     padding: 0.5rem;
     width: 800px;
+}
+
+@media screen and (min-width:700px) {
+    .contacto-grid{
+        display: grid;
+        grid-template-areas:
+       "titulo"
+        "contacto"
+        "sede"
+    }
+    .btn-1{
+        display: block;
+    }
+    .btn-2{
+        display: block;
+    }
+    .btn-3{
+        display: block;
+    }
+    .btn-4{
+        display: block;
+    }
+    .btn-1{
+        display: block;
+    }
+    .btn-5{
+        display: block;
+    }
+    .btn-6{
+        display:block;
+    }
+    .btn-7{
+        display: block;
+    }
+    .btn-8{
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width:1440px) {
+    .mapa iframe{
+       max-width: 100%;
+       margin: 0 100px;
+    }
+    
 }

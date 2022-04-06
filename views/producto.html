@@ -21,99 +21,106 @@
 </head>
      
 <body>
-    <header>
-        <section id="arriba">
-            <div class="container-fluid">
-                <div class="header-logo col-12 col-md-4 col-xl-3">
-                    <img src="../assets/images/logo.jpg" class="img-fluid">
-                </div>
-             
-                <form class="d-flex">
-                  <div class=" usuariocard mb-3" style="max-width: 400px;">
-                    <div class="row g-0">
-                      <div class=" golden col-md-4 col-4">
-                        <img src="../assets/images/golden.jpg" class="golden img-fluid rounded-float-end" style="  border-radius: 50%; border: 4px solid rgb(117, 41, 149); " alt="...">
-    
-                        
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title"><strong>Bienvenido, </strong></h5>
-                          <p class="card-text"><a href="../index.html">
-                            <i class="fa-solid fa-right-from-bracket"></i>
-                          </a></p>
-                  
-                        </div>
-                      </div>
-                      <div class=" menu navbar-nav">
-                        <div class="row">
-                          <div class="">
-                        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-user"></i>Usuario</a>
-        
-                  
-                        <a class="nav-link" href="#"><i class="fa-solid fa-users"></i>Clientes</a>
+  <header>
+    <section id="arriba">
+        <div class="container-fluid">
+            <div class="header-logo col-12 col-md-4 col-xl-3">
+                <img src="../assets/images/logo.jpg" class="img-fluid">
+            </div>
+            <div class="d-flex justify-content-end">
+            <form class="d-flex">
+              <div class=" usuariocard mb-3" style="max-width: 400px;">
+                <div class="row g-0">
+                  <div class=" golden col-md-4 col-4">
+                    <img src="../assets/images/golden.jpg" class="golden img-fluid rounded-float-end" style="  border-radius: 50%; border: 4px solid rgb(117, 41, 149); " alt="...">
+
                     
-                        <a class="nav-link" href="../views/producto.html"><i class="fa-solid fa-tag"></i>Productos</a>
-  
-                        <a class="nav-link" href="../views/Pedido/pedido.html" ><i class="fa-solid fa-cart-shopping"></i>Pedidos</a>
-  
-                        <a class="nav-link" ><i class="fa-solid fa-chart-line-up"></i></i>Reportes</a>
-                      </div>
-                     
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>Bienvenido, </strong></h5>
+                      <p class="card-text"><a href="../index.html">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                      </a></p>
+              
                     </div>
                   </div>
-                
-          </section>
-        </header>          
-        
-    <section id="dashboard">
-        <article class="contenido">
-                <div class="producto">
-                    <div class="table-intro">
-                    <div class="col-4">
-                        <img src="../assets/images/golden.jpg" class="golden img-fluid rounded-float-end" style="  border-radius: 50%; " alt="...">
-                    </div>
-                        <h1>Gestión de Productos </h1>
-                        <a href="../views/productoAdd.html">
-                        <button type="button" class="btn btn-outline-primary"><i class="bi bi-people"></i>Agregar</button>
-                        </a>
-                    </div>   
-                        <a href="../views/login.html">
-                            <button  type="submit" class=" srh-dashboard btn btn-primary"><i class="bi bi-person-circle"></i>Buscar</button>
-                            </a>
-                      
-                       
-            <table>
-                <table class="table table-bordered" style="border: 6px solid rgb(117, 41, 149);">
-                    <thead style="border: 6px solid rgb(117, 41, 149);">
-                      <tr>
-                        <th scope="col" >id Producto</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Carcateristicas</th>
-                        <th scope="col">Precio</th>
-                        <th scope="col">Estado</th>
-                        <th scope="col">Acciones</th>
-                      </tr>
-                    </thead>
-                    <tbody style="border: 6px solid rgb(117, 41, 149);">
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>xxxxx</td>
-                    <td>xxxxx</td>
-                    <td>xxxxx</td>
-                    <td>xxxxx</td>
-                    <td>xxxxx</td>
-                    <td><a href="productoEditar.html"><img src="../assets/images/" alt=""></a></td>
-            
-                        <td><button class="btn-azul">Eliminar</button></td>
-                
                 </div>
-             
-            </table>
+                
+            
+    </header>        
+ 
+        
+        </header>
+        <main>
+          <article class="contenido">
+            <div class="producto">
+                <div class="table-intro">
+                <div class="col-4">
+                    <img src="../assets/images/golden.jpg" class="golden img-fluid rounded-float-end" style="  border-radius: 50%; " alt="...">
+                </div>
+                    <h1>Gestión de Productos </h1>
+                    <a href="../views/productoAdd.html">
+                    <button type="button" class="btn btn-outline-primary"><i class="bi bi-people"></i>Agregar</button>
+                    </a>
+                </div>   
+                    <a href="../views/login.html">
+                        <button  type="submit" class=" srh-dashboard btn btn-primary"><i class="bi bi-person-circle"></i>Buscar</button>
+                        </a>
+                        <div>
+                          <table>
+                              <table class="table table-bordered" style="border: 6px solid rgb(117, 41, 149);">
+                                  <thead style="border: 6px solid rgb(117, 41, 149);">
+                                    <tr>
+                                      <th scope="col" >id Producto</th>
+                                      <th scope="col">Nombre</th>
+                                      <th scope="col">Carcateristicas</th>
+                                      <th scope="col">Precio</th>
+                                      <th scope="col">Estado</th>
+                                      <th scope="col">Acciones</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody style="border: 6px solid rgb(117, 41, 149);">
+                                    <tr>
+                                      <th scope="row">1</th>
+                                      <td>xxxxx</td>
+                                  <td>xxxxx</td>
+                                  <td>xxxxx</td>
+                                  <td>xxxxx</td>
+                                  <td>xxxxx</td>
+                                  <td><a href="productoEditar.html"><img src="../assets/images/" alt=""></a></td>
+                          
+                                      <td><button class="btn-azul">Eliminar</button></td>
+                              
+                              </div>
+                           
+                          </table>
+              
+                          </div>
+                      </article>
+                  </section>
+            </div>   
+          </div>  
+        </div>  
+      </article> 
+    <section id="dashboard">
+      <div class=" menu navbar-nav">
+        <div class="row">
+          <div class="">
+        <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-user"></i>Usuario</a>
 
-            </div>
-        </article>
-    </section>
+  
+        <a class="nav-link" href="#"><i class="fa-solid fa-users"></i>Clientes</a>
     
+        <a class="nav-link" href="../views/producto.html"><i class="fa-solid fa-tag"></i>Productos</a>
+
+        <a class="nav-link" href="../views/Pedido/pedido.html" ><i class="fa-solid fa-cart-shopping"></i>Pedidos</a>
+
+        <a class="nav-link" ><i class="fa-solid fa-chart-line-up"></i></i>Reportes</a>
+      </div>
+     
+    </div>
+    
+  </main>
 </body>
 </html>

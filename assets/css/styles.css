@@ -198,9 +198,12 @@ footer{
     /*tips*/
     #tips{
       display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 50%;
       align-self: center;
       justify-content: center;
+    }
+    #filtros{
+        text-align: center;
     }
     .izquierda{
         align-self: flex-end;
@@ -443,6 +446,10 @@ select{
         display: block;
     }
     
+    #tips{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
 
 @media screen and (min-width:1440px) {
